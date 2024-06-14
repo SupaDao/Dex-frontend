@@ -1,0 +1,76 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+
+// $dark-theme-colors: (
+//   "body-bg": #121212,
+//   "body-color": #ffffff
+// );
+
+// @media (prefers-color-scheme: dark) {
+//   $body-bg: map-get($dark-theme-colors, "body-bg");
+//   $body-color: map-get($dark-theme-colors, "body-color");
+
+//   body {
+//     background-color: $body-bg;
+//     color: $body-color;
+//   }
+// }
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "color": map-merge(
+      map-get($utilities, "color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "color"), "values"),
+          (
+            $all-colors
+          ),
+        ),
+      ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "background-color": map-merge(
+      map-get($utilities, "background-color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "background-color"), "values"),
+          (
+            $all-colors
+          ),
+        ),
+      ),
+    ),
+    "bg-opacity": (
+  css-var: true,
+  class: bg-opacity,
+  values: (
+    10: .1,
+    25: .25,
+    50: .5,
+    75: .75,
+    100: 1
+  ))
+  )
+);
+
+@each $name, $color in $all-colors {
+  .btn-#{$name} {
+    @include button-variant($color, darken($color, 15%));
+  }
+}
+
+@import "../../node_modules/bootstrap/scss/utilities/api";
