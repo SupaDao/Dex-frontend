@@ -4,7 +4,7 @@ import logo from "../assets/26.png"
 
 const Header = () => {
   return (
-    <Navbar expand="lg" collapseOnSelect  bg="indigo-900" variant="dark">
+    <Navbar expand="lg" collapseOnSelect fixed="top"  bg="indigo-900" variant="dark">
       <div className="container-fluid container-md">
         <Link to="/" className="navbar-brand text-cyan-200">
           <img

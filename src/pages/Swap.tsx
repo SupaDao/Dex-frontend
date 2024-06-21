@@ -1,7 +1,7 @@
 
 const Swap = () => {
   return (
-    <div>
+    <div className="container-fluid container-md mt-4 pt-5">
       hi
     </div>
   )
