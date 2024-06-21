@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import Swap from "./pages/Swap";
 import Liquidity from "./pages/Liquidity";
+import Whitepaper from "./pages/Whitepaper"
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="swap" element={<Swap/>}/>
         <Route path="liquidity" element={<Liquidity/>}/>
+       <Route path="whitepaper" element={<Whitepaper/>}/> 
       </Route>
     </Routes>
   )

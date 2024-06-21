@@ -48,6 +48,14 @@ const Features = () => {
             <Image fluid src={swap} />
           </Col>
         </Row>
+        
+               <Row className="pt-5">
+          <p className=" fs-5 text-uppercase text-lemon font-supadao">Governance</p>
+          <p>
+          SupaDAO is committed to decentralized governance, allowing liquidity providers to participate in the decision-making process. Governance tokens grant voting rights, enabling LPs to propose and vote on key protocol changes, new features, and upgrades.
+          </p>
+        </Row>
+ 
       </Container>
     </section>
   )
