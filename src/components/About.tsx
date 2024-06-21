@@ -30,7 +30,7 @@ const About = () => {
         <Link to="https://x.com/supa_dao" target="_blank" className="text-purple-300 nav-link">
           <BsTwitterX className="fs-5"/>
         </Link>
-        <Link to="https://github/SupaDao" target="_blank" className="text-purple-300 nav-link mx-2">
+        <Link to="https://github.com/SupaDao" target="_blank" className="text-purple-300 nav-link mx-2">
           <BsGithub className="fs-5"/>
         </Link>
         <Link to="https://t.me/supadao" target="_blank" className="text-purple-300 nav-link">
