@@ -13,9 +13,6 @@ const Header = () => {
             </NavbarBrand>
           </Col>
           <Col xs={2} className="my-auto mx-auto">
-            <Link to="#about" className="nav-link font-supadao">Home</Link>
-          </Col>
-          <Col xs={2} className="my-auto mx-auto">
             <Link to="#about" className="nav-link font-supadao">About</Link>
           </Col>
           <Col xs={2} className="my-auto mx-auto">
