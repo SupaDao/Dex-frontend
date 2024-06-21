@@ -9,7 +9,7 @@ const Header = () => {
         <Row>
           <Col xs={3} className="my-auto">
             <NavbarBrand href="/">
-              <Image fluid src={logo} alt="Logo" className="inline-block"/>
+              <Image fluid src={logo} alt="Logo" className="d-inline-block"/>
             </NavbarBrand>
           </Col>
           <Col xs={2} className="my-auto">
