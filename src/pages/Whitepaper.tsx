@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap"
+import { Container} from "react-bootstrap"
 
 const Whitepaper = () =>{
   return (
@@ -135,7 +135,7 @@ number of tokens held.</li>
 implemented by the development team,
 ensuring community-driven development.
 </li>
-         </ul>
+          </ul>
         </li> 
        </ol>
        

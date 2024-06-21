@@ -1,6 +1,6 @@
-import { Col, Container, Image, Row } from "react-bootstrap"
+import { Container} from "react-bootstrap"
 import { Link } from "react-router-dom"
-import { BsArrowRight, BsGithub, BsTelegram, BsTwitterX, BsDiscord, BsArrowUpRight, BsFileEarmarkRichtext } from "react-icons/bs"
+import { BsArrowUpRight, BsGithub, BsTelegram, BsTwitterX, BsDiscord,BsFileEarmarkRichtext } from "react-icons/bs"
 
 const Links = () =>{
   return (
