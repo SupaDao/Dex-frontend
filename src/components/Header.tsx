@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <div className="container-fluid container-md">
+      <div className="container-fluid mw-100 container-md">
         <Row>
           <Col xs={3} className="my-auto mx-auto">
             <NavbarBrand href="/">
@@ -21,7 +21,7 @@ const Header = () => {
           <Col xs={2} className="my-auto mx-auto">
             <Link to="#about" className="nav-link font-supadao">Features</Link>
           </Col>
-          <Col xs={2} className="my-auto mx-auto">
+          <Col xs={3} className="my-auto mx-auto">
             <Link to="#about" className="nav-link font-supadao">Whitepaper</Link>
           </Col>
         </Row>
