@@ -18,7 +18,7 @@ const Header = () => {
           <Col xs={2} className="my-auto">
             <Link to="#about" className="nav-link font-supadao">Features</Link>
           </Col>
-          <Col xs={3} className="my-auto">
+          <Col xs={3} className="my-auto mx-auto">
             <Link to="#about" className="nav-link font-supadao">Whitepaper</Link>
           </Col>
         </Row>
