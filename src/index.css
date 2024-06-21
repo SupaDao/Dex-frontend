@@ -1,3 +1,47 @@
+@font-face {
+      font-family: "supadao";
+      src: url("./assets/BITSUMIS.TTF");
+      font-weight: normal;
+      font-style: normal;
+}
+
+.font-supadao{
+      font-family: 'supadao', sans-serif;
+}
+
 .h-min-100{
       min-height: 100dvh !important;
 }
+
+.custom-hr{
+      border: none;
+      height: 2px;
+      background: linear-gradient(to right, #8c52ff, #cbfc00);
+}
+
+.border-lemon{
+      border: 0.1rem solid #cbfc00;
+}
+
+.text-lemon{
+      color: #cbfc00;
+}
+
+.btn-custom{
+    background: linear-gradient(145deg, #8c52ff, #cbfc00);
+    border: 2px solid #b0b0b0;
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: #fefefe !important; /* Text color */
+    font-size: 16px; /* Font size */
+    padding: 10px 20px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove outline */
+    transition: background 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-custom:hover{
+    background: linear-gradient(145deg, #cbfc00, #8c52ff); /* Inverted gradient on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+}
+/* 53620D , 3F2A65, border - 7B960E */
