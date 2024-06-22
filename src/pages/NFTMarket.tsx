@@ -1,6 +1,6 @@
 import Soon from "../components/Soon"
 
-const Swap = () => {
+const NFTMarket = () => {
   return (
     <div>
       <Soon/>
@@ -8,4 +8,4 @@ const Swap = () => {
   )
 }
 
-export default Swap
+export default NFTMarket

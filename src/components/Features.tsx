@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 const Features = () => {
   return (
-    <section className="py-2">
+    <section className="py-2" id="features">
       <Container className="border-lemon rounded-4 py-2">
         <p className=" fs-4 text-uppercase text-lemon font-supadao"> Features <BsArrowRight className="text-purple-300 d-inline-block fs-5 fw-bold" /></p>
 
@@ -21,10 +21,10 @@ const Features = () => {
             <p className="d-none d-md-block">
               SupaDao enables users to provide liquidity to trading pairs by depositing their tokens into liquidity pools.
             </p>
-            <Link to="/liquidity" className="btn-custom btn text-capitalize align-self-start my-3">
-              liquidity pool
-              <BsArrowUpRight className="text-purple-500 d-inline-block fs-5 fw-bold ms-2"/>
-            </Link>
+           <Link to="/liquidity" className="btn-custom btn text-capitalize align-self-start my-3">
+             liquidity pool
+             <BsArrowUpRight className="text-purple-500 d-inline-block fs-5 fw-bold ms-2"/>
+           </Link>
             <Link to="/swap" className="btn-custom btn text-capitalize align-self-start">
               Token Swap
               <BsArrowUpRight className="text-purple-500 d-inline-block fs-5 fw-bold ms-2"/>
@@ -39,7 +39,7 @@ const Features = () => {
             <p className="d-none d-md-block">
               SupaDao enables users to provide liquidity to trading pairs by depositing their tokens into liquidity pools.
             </p>
-            <Link to="/liquidity" className="btn-custom btn text-capitalize align-self-start">
+            <Link to="/market-place" className="btn-custom btn text-capitalize align-self-start">
               NFT Market place
               <BsArrowUpRight className="text-purple-500 d-inline-block fs-5 fw-bold ms-2"/>
             </Link>

@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Swap from "./pages/Swap";
 import Liquidity from "./pages/Liquidity";
 import Whitepaper from "./pages/Whitepaper"
+import Missing from "./pages/Missing"
+import NFTMarket from "./pages/NFTMarket"
 
 
 
@@ -15,7 +17,9 @@ function App() {
         <Route index element={<Home />} />
         <Route path="swap" element={<Swap/>}/>
         <Route path="liquidity" element={<Liquidity/>}/>
-       <Route path="whitepaper" element={<Whitepaper/>}/> 
+        <Route path="whitepaper" element={<Whitepaper/>}/>
+        <Route path="market-place" element={<NFTMarket/>}/>
+        <Route path="*" element={<Missing/>}/> 
       </Route>
     </Routes>
   )

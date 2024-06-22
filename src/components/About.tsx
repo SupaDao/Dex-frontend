@@ -7,16 +7,16 @@ import { Link } from "react-router-dom"
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <Container className="border-lemon rounded-4 py-2">
         <Row>
-          <Col xs={2}>
+          <Col xs={3} md={2}>
             <Image fluid src={icon} alt="supadao"/>
           </Col>
-          <Col xs={2}>
+          <Col xs={3} md={2}>
             <Image fluid src={collab} alt="collaboration"/>
           </Col>
-          <Col xs={2}>
+          <Col xs={3} md={2}>
             <Image fluid src={monad} alt="Monad"/>
           </Col>
         </Row>

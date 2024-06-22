@@ -13,10 +13,10 @@ const Header = () => {
             </NavbarBrand>
           </Col>
           <Col xs={2} className="my-auto text-center">
-            <Link to="#about" className="nav-link font-supadao">About</Link>
+            <Link to="/#about" className="nav-link font-supadao">About</Link>
           </Col>
           <Col xs={3} className="my-auto text-center">
-            <Link to="#about" className="nav-link font-supadao">Features</Link>
+            <Link to="/#features" className="nav-link font-supadao">Features</Link>
           </Col>
           <Col xs={3} className="my-auto text-center borde">
             <Link to="/whitepaper" className="nav-link font-supadao">Whitepaper</Link>

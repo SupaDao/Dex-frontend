@@ -140,6 +140,89 @@ ensuring community-driven development.
        </ol>
        
        
+      <p className="fw-bold text-uppercase fs-5 text-lemon py-3">TECHNICAL ARCHITECTURE</p>
+      
+       <p className="fw-bold text-capitalize fs-6 py-1">core component</p> 
+       <ol>
+        <li><span className="fw-bold">Smart Contracts: </span>SupaDAO utilizes smart
+contracts for liquidity pools, token swaps, and
+governance. These contracts will be deployed
+on the Monad blockchain, ensuring security
+and transparency.</li>
+
+        <li><span className="fw-bold">User Interface: </span>An intuitive and user-friendly
+interface allows users to easily interact with the
+DEX, manage their assets, and participate in
+governance.</li> 
+
+<li><span className="fw-bold">Oracle Integration: </span>SupaDAO integrates with
+reliable oracles to ensure accurate and up-to-
+date price feeds for token swaps.</li> 
+
+       </ol>
+       
+       <p className="fw-bold text-capitalize fs-6 py-1">core component</p> 
+       
+       <ul>
+        <li><span className="fw-bold">Audit: </span>Regular smart contract audits by
+reputable firms to identify and mitigate
+potential vulnerabilities.</li> 
+         <li><span className="fw-bold">Bug Bounty Program: </span>Incentivizing the
+community to discover and report bugs.</li> 
+        <li><span className="fw-bold">Insurance Funds: </span>A reserve fund to cover
+potential losses from unforeseen security
+breaches.</li>  
+       </ul>
+       
+       
+       <p className="fw-bold text-uppercase fs-5 text-lemon py-3">roadmap</p>
+       
+       <p className="fw-bold text-capitalize fs-6 py-1">Phase 1: Launch</p> 
+       
+       <ul>
+        <li>Deployment of core smart contracts on Monad</li> 
+         <li>Launch of the SupaDAO platform with basic
+liquidity provision and token swap functionality</li> 
+        <li>Initial distribution of governance tokens to early liquidity providers</li>  
+       </ul>
+       
+       <p className="fw-bold text-capitalize fs-6 py-1">Phase 2: Expansion</p> 
+       
+       <ul>
+        <li>Integration of additional trading pairs and
+liquidity pools.</li> 
+         <li>Expansion of the SupaDAO ecosystem through
+partnerships and integrations.</li> 
+        <li>Implementation of a comprehensive
+governance framework.</li>  
+       </ul>
+       
+       
+       <p className="fw-bold text-capitalize fs-6 py-1">Phase 3: Maturity</p> 
+       
+       <ul>
+        <li>Continuous optimization of the platform for
+performance and security.</li> 
+         <li>Development of advanced trading features,
+such as limit orders and yield farming.</li> 
+        <li>Establishment of a decentralized autonomous
+organization (DAO) for complete community
+control.</li>  
+       </ul>
+       
+       
+       <p className="fw-bold text-uppercase fs-5 text-lemon py-3">conclusion</p>
+       
+       <p>SupaDAO is set to redefine the DEX landscape by leveraging the unique strengths of the Monad blockchain. Our commitment to liquidity provision, efficient token swaps, and decentralized governance will empower users and drive the future of DeFi. Join us on this journey to create a more inclusive and efficient financial system.</p>
+       
+       
+       
+       <p className="fw-bold text-uppercase fs-5 text-lemon py-3">contact information</p>
+       <p>For more information, contact us on any of our social platforms </p>
+       
+       
+       <p className="py-5"><span className="fw-bold">Note:</span> This white paper is for informational purposes only and does not constitute investment advice or an offer to sell or solicitation to purchase any tokens.</p>
+       
       </Container>
     </main>
   )
